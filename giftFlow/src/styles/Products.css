@@ -1,0 +1,144 @@
+
+  
+ /* styles/FirstScreen.css */
+ .centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh; /* Full viewport height */
+  
+    margin: auto; /* Center the card horizontally */
+  }
+  
+  .custom-card {
+    background: hsla(0, 0%, 100%, 0.709); /* Semi-transparent white background */
+    margin: auto; /* Center the card horizontally */
+    border-radius: 15px; /* Rounded corners */
+    height: 90vh; 
+    width: 90vw; 
+  }
+
+h1 {
+  margin-top:4vh ;
+    font-family: "Playwrite RO", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+  }
+
+
+  
+  .card-body {
+    height: 70vh; /* Fixed height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding: 15px; /* Add padding for better spacing */
+  }
+
+
+.transparentBackground{
+  background-color: transparent!important;
+}
+ /* styling the regesteration  */
+
+
+
+  
+  
+  
+  
+ .input {
+  border-radius: 20px;
+  border: 1px solid #c0c0c0;
+  outline: 0 !important;
+  box-sizing: border-box;
+  padding: 12px 15px;
+}
+
+.page-link {
+  text-decoration: underline;
+  margin-top: 3px;
+  text-align: end;
+  color: #747474;
+  text-decoration-color: #747474;
+}
+
+.page-link-label {
+  cursor: pointer;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+}
+
+.page-link-label:hover {
+  color: #000;
+}
+
+.form-btn {
+  padding: 10px 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-radius: 20px;
+  border: 0 !important;
+  outline: 0 !important;
+  background: teal;
+  color: white;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.form-btn:active {
+  box-shadow: none;
+}
+
+.sign-up-label {
+  margin-top: 3px;
+  font-size: 10px;
+  color: #747474;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.sign-up-link {
+  margin-left: 1px;
+  font-size: 11px;
+  text-decoration: underline;
+  text-decoration-color: teal;
+  color: teal;
+  cursor: pointer;
+  font-weight: 800;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+
+
+    .google-login-button {
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  margin: auto;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+
+  width: fit-content;
+  background-color: white;
+  color: blue;
+  border-radius: 20px;
+  border: 1px solid #c0c0c0;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 3px;
+}
+.google-login-button:hover {
+  background-color: teal;
+  border: 1px solid #c0c0c0;
+}
+
+
+

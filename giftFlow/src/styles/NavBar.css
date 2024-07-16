@@ -1,0 +1,51 @@
+#navbar-custom {
+  padding: 1rem;
+  border-bottom: 1px solid #e0e0e0; /* Light border bottom */
+}
+
+#navbar-brand-custom {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #343a40; /* Dark text color for brand */
+}
+
+#navbar-custom .navbar-toggler {
+  color: #fff;
+  background-color: #ea93f7c7;
+  border: none;
+  outline: none;
+}
+
+#navbar-custom .navbar-toggler-icon {
+  border-radius: 50%;
+}
+
+#nav-link-home,
+#nav-link-products,
+#nav-link-ai-help,
+#nav-link-about,
+#nav-link-signin {
+  color: #343a40; /* Dark text color for links */
+  margin-right: 1rem;
+  transition: color 0.3s;
+}
+
+#nav-link-home:hover,
+#nav-link-products:hover,
+#nav-link-ai-help:hover,
+#nav-link-about:hover,
+#nav-link-signin:hover {
+  color: #cd78d8; /* Primary color on hover */
+}
+
+#navbar-custom .dropdown-item {
+  color: #343a40;
+  text-align: center;
+}
+
+#navbar-custom .dropdown-item:hover,
+#navbar-custom .dropdown-item:focus {
+  background-color: #f2f2f2; /* Light background for hovered/focused dropdown items */
+  color: #cd78d8; /* Primary color for hovered/focused text */
+}

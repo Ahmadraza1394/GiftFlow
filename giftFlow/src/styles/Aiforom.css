@@ -1,0 +1,56 @@
+/* Inside Aiforom.css or your CSS file */
+.survey-content {
+  width: 100vw; /* Ensure full width */
+  height: 100%; /* Ensure full height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+
+.survey-card {
+  width: 100%; /* Ensure full width */
+  max-width: 600px; /* Fixed max-width for content */
+  padding: 20px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  border-radius: 10px;
+  text-align: right; /* Align text to the right */
+}
+
+.survey-card .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.survey-card h2 {
+  margin-bottom: 20px;
+}
+
+.survey-card .progress-bar {
+  height: 20;
+  border-radius: 5px;
+}
+
+h3{
+  color: #ff69b4;
+}
+#questions{
+  height: 100%;
+  width: 80%;
+
+}
+
+#btn{
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  border: none;
+  
+}
+
+#answers{
+  height: 70%;
+}
+

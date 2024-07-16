@@ -1,0 +1,21 @@
+body, html, #root{
+  height: auto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    direction: rtl;
+    background: linear-gradient(#87c3eb1e, #e9d0e36c);
+  
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.App .content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
